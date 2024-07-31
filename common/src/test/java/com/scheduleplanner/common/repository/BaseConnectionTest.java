@@ -1,6 +1,5 @@
 package com.scheduleplanner.common.repository;
 
-import com.mysql.cj.jdbc.ConnectionImpl;
 import com.scheduleplanner.common.exception.baseexception.unhandled.GatewayTimeoutException;
 import com.scheduleplanner.common.repository.mock.ConnectionFake;
 import com.scheduleplanner.common.repository.mock.DataStructureFake;
@@ -8,7 +7,6 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.sql.Connection;
-import java.sql.SQLException;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
